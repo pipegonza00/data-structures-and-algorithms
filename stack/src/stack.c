@@ -59,7 +59,7 @@ int peek(Stack *stack){
 }
 
 int is_empty(Stack *stack){
-    return stack->size > 0 ? 0 : 1;
+    return stack->size == 0;
 
 }
 
